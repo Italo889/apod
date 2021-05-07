@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111111;
+    color: #e4e4e4;
+    text-align: center;
+}
+
+
+
+
+header {
+    height: 80px;
+    background-color: #070303;
+}
+
+
+.logo {
+    color: #e7e6e6;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Goblin One', cursive;
+}
+
+.aptd {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.discover {
+    margin: auto;
+    max-width: 960px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#data {
+    margin-right: 2px;
+}
+
+#botao {
+    height: 24px;
+}
+
+#conteudo {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tituloImage {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#descricao {
+    max-width: 960px;
+    margin-bottom: 80px;
+}
+
+footer {
+    height: 60px;
+    background-color: #070303;
+    line-height: 60px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Strait&display=swap" rel="stylesheet">
+    <title>Nasa Apod</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">NASA APOD</h1>
+    </header>
+    <main id="divisao">
+        <div>
+            <h1 class="aptd">Astronomy Picture of the Day</h1>
+            <p class="discover"><a href="https://apod.nasa.gov/apod/archivepix.html">Discover the cosmos!</a> Each day a
+                different image or photograph of our fascinating universe is featured, along with a brief explanation
+                written by a professional astronomer.</p>
+        </div>
+        <p style="margin-bottom: 20px;">Pesquise uma data para ver a imagem</p>
+        <form id="formulario">
+                <input type="date" name="data" id="data">
+            <input type="button" id="botao" value="Pesquisar">
+        </form>
+
+        <section id="conteudo">
+            <div id="img" class="img">
+
+                <p id="copy">
+                </p>
+            </div>
+            <div>
+                <h2 id="tituloImage"></h2>
+
+                <p id="descricao">
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Versão do Apod da Nasa criado por uma aluno da Resilia</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
